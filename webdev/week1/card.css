@@ -34,17 +34,22 @@ section h1 {
  */
 
 section>ul {
-    display: inline;
-    padding: 0px;
+    padding: 0;
+}
+
+section>ul .links {
+    display: flex;
+}
+
+section>ul li {
+    display: inline-flex;
 }
 
 /*
  * direct child li of ul of section
- * make it inline as block
  * remove list style (bullets)
  */
 section>ul>li {
-    display: inline-block;
     list-style: none;
 }
 
@@ -57,6 +62,7 @@ section a {
 .tag {
     padding: 4px;
     background-color: aquamarine;
+    border-radius: 1em;
 }
 
 /* desktop and mobile responsive - this is for desktop */
