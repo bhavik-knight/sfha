@@ -1,0 +1,25 @@
+/* div {
+    display: block;
+    background-color: lightgrey;
+    margin: 25px;
+    border: solid 1px black;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+} */
+
+
+.columns {
+    border: solid 1px red;
+    display: flex;
+}
+
+
+.columns>div {
+    border: solid 1px blue;
+    flex: 1;
+}
+
+.columns>div:nth-of-type(2) {
+    flex: 2;
+}
