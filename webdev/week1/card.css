@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    color-scheme: light;
+}
+
+body {
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: grey; */
+}
+
+/* class card */
+.card {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 250px;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* all h1 within section */
+section h1 {
+    /* background-color: bisque; */
+    margin-bottom: 4px;
+    padding: 2px;
+}
+
+/*
+ * directy child ul of section
+ * make list item display inline
+ */
+
+section>ul {
+    display: inline;
+    padding: 0px;
+}
+
+/*
+ * direct child li of ul of section
+ * make it inline as block
+ * remove list style (bullets)
+ */
+section>ul>li {
+    display: inline-block;
+    list-style: none;
+}
+
+/* remove underline of hyperlinks */
+section a {
+    text-decoration: none;
+}
+
+/* tag class color, etc */
+.tag {
+    padding: 4px;
+    background-color: aquamarine;
+}
+
+/* desktop and mobile responsive - this is for desktop */
+@media only screen and (min-width:768px) {
+    * {
+        color-scheme: light dark;
+    }
+
+    body {
+        display: flex;
+    }
+}

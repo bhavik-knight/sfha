@@ -1,0 +1,21 @@
+main {
+    background-color: grey;
+    width: 50%;
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    background-color: greenyellow;
+}
+
+h1 {
+    color: lightblue;
+    background-color: white;
+}
+
+.heading {
+    color: red;
+}

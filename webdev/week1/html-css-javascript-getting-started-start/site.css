@@ -1,0 +1,157 @@
+/* remove all margin */
+* {
+    margin: 0;
+}
+
+/* make sure to calculate dimensions of the page correctly */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+/* add margin top, right, bottom, left */
+p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+/* fix header at top */
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a493c0;
+    padding: 10px;
+}
+
+/* subclass */
+/* make nav bar look better make links white color and w/o underline regardless of visited or not */
+nav a:visited,
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* child */
+/* remove padding and bullets from navbar list */
+nav>ul {
+    display: inline;
+    padding: 0;
+}
+
+/* add margin around links of navbar */
+nav>ul>li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+/* show as block level element and add background image */
+main {
+    display: block;
+    background-image: url("images/background.png");
+    padding: 3em 0 3em 0;
+    min-height: 85%;
+}
+
+/* style for footer */
+footer {
+    padding: 15px;
+}
+
+aside,
+article {
+    padding: 2em;
+}
+
+/* aside takes whole width on mobile, but only certain portion in desktop */
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%;
+}
+
+
+
+h1 {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.subtitle {
+    background-color: white;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+/* pie-page style */
+.columns {
+    display: flex;
+}
+
+.pie button {
+    padding: 10px;
+    border: solid 1px pink;
+    background-color: pink;
+    color: white;
+    border-radius: 3px;
+}
+
+.pie {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: solid 1px #ccc;
+}
+
+.pie img {
+    width: 100%
+}
+
+.pie .title {
+    font-weight: bold;
+}
+
+.pie .columns {
+    width: 100%
+}
+
+.pie .price {
+    text-align: right;
+}
+
+.pie .columns div {
+    width: 50%;
+}
+
+/* media only to make it desktop and mobile compatible */
+@media only screen and (min-width: 768px) {
+
+    /* display main as flex box */
+    main {
+        display: flex;
+    }
+
+    /* logo to pull away from left a bit */
+    aside {
+        margin-left: 2%;
+    }
+
+    .columns-desktop {
+        display: flex;
+    }
+}
