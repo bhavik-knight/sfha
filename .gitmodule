@@ -1,3 +1,3 @@
-[submodule "HTMLCSSLandingPage"]
-    path = "/webdev/week2/project/HTMLCSSLandingPage
+[submodule "HTMLCSS-LandingPage"]
+    path = "/webdev/week2/project/HTMLCSS-LandingPage"
     url = "git@github.com:bhavik-knight/HTMLCSS-LandingPage.git"
