@@ -1,3 +1,6 @@
 [submodule "webdev/project/hck_dns_sfha"]
 	path = webdev/project/hck_dns_sfha
 	url = https://github.com/bhavik-knight/hck_dns_sfha.git
+[submodule "webdev/2_css/project/HTMLCSS-LandingPage"]
+	path = webdev/2_css/project/HTMLCSS-LandingPage
+	url = git@github.com:bhavik-knight/HTMLCSS-LandingPage.git
