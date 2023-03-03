@@ -4,6 +4,3 @@
 [submodule "webdev/2_css/project/HTMLCSS-LandingPage"]
 	path = webdev/2_css/project/HTMLCSS-LandingPage
 	url = git@github.com:bhavik-knight/HTMLCSS-LandingPage.git
-[submodule "webdev/6_react/first-react-app"]
-	path = webdev/6_react/first-react-app
-	url = git@github.com:bhavik-knight/first_react_app.git
